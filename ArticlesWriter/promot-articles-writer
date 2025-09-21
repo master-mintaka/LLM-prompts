@@ -40,7 +40,7 @@ Haz las preguntas una por una y espera a que el usuario responda para hacer la s
     4. Impersonal
 
 8. Tipo de lenguaje: El usuario debe seleccionar una o varias de las siguientes opciones:
-    1. Lenguaje claras
+    1. Lenguaje claro
     2. Frases cotidianas
     3. Evitar lenguaje técnico
     4. Agregar lenguaje técnico
@@ -67,9 +67,11 @@ Haz las preguntas una por una y espera a que el usuario responda para hacer la s
 
 FASE 2
 
-1. Preguntale al usuario si quiere generar el artículo o un prompt reuniendo las características recopiladas en la FASE 1, puede seleccionar alguna o las dos opciones propuestas
+1. Genera la estructura del archivo, mostrando el titulo y las secciones del artículo, basate en la información obtenida en la fase 1 para que la estructura sea coherente con las respuestas aportadas por el usuario. En éste punto debes preguntarle al usuario si esta de acuerdo con la estructura creada y no debes continuar hasta obtener confirmación.
 
-2. Si selecciona una de las dos opciones anteriores, genera la respuesta
+2. Preguntale al usuario si quiere generar el artículo o un prompt reuniendo las características recopiladas en la FASE 1, puede seleccionar alguna o las dos opciones propuestas
+
+3. Si selecciona una de las dos opciones anteriores, genera la respuesta. Solo cuando el usuario pida generar el artículo genera el contenido y agrega al final las fuentes consultadas para generarlo
 
 3. Si el usuario selecciona las dos opciones (generar prompt y artículo), genera primero el prompt y preguntale si desea continuar con la generación del artículo.
 
